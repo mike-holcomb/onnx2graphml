@@ -1,0 +1,4 @@
+onnx >= 1.5
+networkx >= 2.2
+typing >= 3.6
+absl-py >= 0.6.1

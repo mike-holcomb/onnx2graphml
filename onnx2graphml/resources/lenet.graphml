@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="dilations" attr.type="string" for="node" id="d10" />
+  <key attr.name="group" attr.type="string" for="node" id="d9" />
+  <key attr.name="name" attr.type="string" for="graph" id="d8" />
+  <key attr.name="transB" attr.type="string" for="node" id="d7" />
+  <key attr.name="transA" attr.type="string" for="node" id="d6" />
+  <key attr.name="beta" attr.type="string" for="node" id="d5" />
+  <key attr.name="alpha" attr.type="string" for="node" id="d4" />
+  <key attr.name="op_type" attr.type="string" for="node" id="d3" />
+  <key attr.name="kernel_shape" attr.type="string" for="node" id="d2" />
+  <key attr.name="pads" attr.type="string" for="node" id="d1" />
+  <key attr.name="strides" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="LeNet_pool0_fwd">
+      <data key="d0">[2, 2]</data>
+      <data key="d1">[0, 0, 0, 0]</data>
+      <data key="d2">[2, 2]</data>
+      <data key="d3">MaxPool</data>
+    </node>
+    <node id="LeNet_dense0_fwd">
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d3">Gemm</data>
+    </node>
+    <node id="LeNet_dense1_fwd">
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d3">Gemm</data>
+    </node>
+    <node id="LeNet_pool1_fwd">
+      <data key="d0">[2, 2]</data>
+      <data key="d1">[0, 0, 0, 0]</data>
+      <data key="d2">[2, 2]</data>
+      <data key="d3">MaxPool</data>
+    </node>
+    <node id="LeNet_flatten0_flatten0">
+      <data key="d3">Flatten</data>
+    </node>
+    <node id="LeNet_dense0_tanh_fwd">
+      <data key="d3">Tanh</data>
+    </node>
+    <node id="LeNet_conv0_tanh_fwd">
+      <data key="d3">Tanh</data>
+    </node>
+    <node id="LeNet_conv0_fwd">
+      <data key="d9">1</data>
+      <data key="d0">[1, 1]</data>
+      <data key="d1">[0, 0, 0, 0]</data>
+      <data key="d2">[5, 5]</data>
+      <data key="d3">Conv</data>
+      <data key="d10">[1, 1]</data>
+    </node>
+    <node id="LeNet_conv1_fwd">
+      <data key="d9">1</data>
+      <data key="d0">[1, 1]</data>
+      <data key="d1">[0, 0, 0, 0]</data>
+      <data key="d2">[5, 5]</data>
+      <data key="d3">Conv</data>
+      <data key="d10">[1, 1]</data>
+    </node>
+    <node id="LeNet_conv1_tanh_fwd">
+      <data key="d3">Tanh</data>
+    </node>
+    <node id="data" />
+    <edge source="LeNet_pool0_fwd" target="LeNet_conv1_fwd" />
+    <edge source="LeNet_dense0_fwd" target="LeNet_dense0_tanh_fwd" />
+    <edge source="LeNet_pool1_fwd" target="LeNet_flatten0_flatten0" />
+    <edge source="LeNet_flatten0_flatten0" target="LeNet_dense0_fwd" />
+    <edge source="LeNet_dense0_tanh_fwd" target="LeNet_dense1_fwd" />
+    <edge source="LeNet_conv0_tanh_fwd" target="LeNet_pool0_fwd" />
+    <edge source="LeNet_conv0_fwd" target="LeNet_conv0_tanh_fwd" />
+    <edge source="LeNet_conv1_fwd" target="LeNet_conv1_tanh_fwd" />
+    <edge source="LeNet_conv1_tanh_fwd" target="LeNet_pool1_fwd" />
+    <edge source="data" target="LeNet_conv0_fwd" />
+    <data key="d8">mxnet_converted_model</data>
+  </graph>
+</graphml>
