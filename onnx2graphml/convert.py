@@ -104,12 +104,25 @@ def networkxable_attribute(attr, subgraphs=False):  # type: (AttributeProto, boo
     return key, ' '.join(value)
 
 
+def _get_out_name(node):
+    if len(node.output) > 0:
+        outputs = [str(out_name) for out_name in node.output]
+    else:
+        outputs = [node.output]
+
+    return outputs[0]
+
+
+def _get_node_name(node):
+    return node.name if len(node.name) > 0 else _get_out_name(node)
+
+
 def networkxable_node(node, prefix='',
-                      subgraphs=False):  # type: (NodeProto, Text, bool) -> Tuple[Text, Dict[Text]]
-    """
-    Adapted from onnx.helper.printable_node()
+                      subgraphs=False):  # type: (NodeProto, Text, bool) -> Union[Text, Tuple[Text, List[GraphProto]]]
+    '''
+    Adapted from onnx.helper.printable_graph()
     https://github.com/onnx/onnx/blob/dd599b05f424eb161a31f3e059566a33310dbe5e/onnx/helper.py#L455
-    """
+    '''
     #     content = []
     #     if len(node.output):
     #         content.append(
@@ -132,6 +145,8 @@ def networkxable_node(node, prefix='',
 
     attrs['op_type'] = node.op_type
 
+    node_name = _get_node_name(node)
+
     #     printed_attributes = ', '.join(sorted(printed_attrs))
     #     printed_inputs = ', '.join(['%{}'.format(name) for name in node.input])
 
@@ -143,7 +158,7 @@ def networkxable_node(node, prefix='',
     #     if subgraphs:
     #         return prefix + ' '.join(content), graphs
     #     else:
-    return node.name, attrs
+    return node_name, attrs
 
 
 def networkxable_graph(graph, prefix=''):  # type: (GraphProto, Text) -> Text
@@ -151,7 +166,7 @@ def networkxable_graph(graph, prefix=''):  # type: (GraphProto, Text) -> Text
     Adapted from onnx.helper.printable_graph()
     https://github.com/onnx/onnx/blob/dd599b05f424eb161a31f3e059566a33310dbe5e/onnx/helper.py#L486
     '''
-    DG = nx.DiGraph(name=graph.name)
+    DG = nx.DiGraph()
     initialized = {t.name for t in graph.initializer}
 
     if len(graph.input):
@@ -191,7 +206,7 @@ def networkxable_graph(graph, prefix=''):  # type: (GraphProto, Text) -> Text
     for node in graph.node:
         for innode in node.input:
             if innode not in initialized:
-                DG.add_edge(innode, node.name)
+                DG.add_edge(innode, _get_node_name(node))
 
     #         content.append(pn)
     #         graphs.extend(gs)

@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="transB" attr.type="string" for="node" id="d5" />
+  <key attr.name="pads" attr.type="string" for="node" id="d4" />
+  <key attr.name="kernel_shape" attr.type="string" for="node" id="d3" />
+  <key attr.name="strides" attr.type="string" for="node" id="d2" />
+  <key attr.name="epsilon" attr.type="string" for="node" id="d1" />
+  <key attr.name="op_type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="gpu_0/res4_1_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2b_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_0_branch1_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/conv1_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d4">[3, 3, 3, 3]</data>
+      <data key="d3">[7, 7]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_0_branch1_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_0_branch1_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/pred_1">
+      <data key="d5">1</data>
+      <data key="d0">Gemm</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_3_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_0_branch1_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/softmax_1">
+      <data key="d0">Softmax</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res2_0_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="OC2_DUMMY_0">
+      <data key="d0">Reshape</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_0_branch1_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_0_branch1_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res5_1_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res3_0_branch1_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res_conv1_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res_conv1_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res2_1_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/data_0" />
+    <node id="gpu_0/res2_2_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res2_2_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_5_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_1_branch2b_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/pool1_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">MaxPool</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2a_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2b_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res4_2_branch2c_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res3_1_branch2a_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d4">[0, 0, 0, 0]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res5_0_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_0_branch2b_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d4">[1, 1, 1, 1]</data>
+      <data key="d3">[3, 3]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_0_branch1_1">
+      <data key="d2">[2, 2]</data>
+      <data key="d3">[1, 1]</data>
+      <data key="d0">Conv</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2c_bn_3">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res3_2_branch2c_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/pool5_1">
+      <data key="d2">[1, 1]</data>
+      <data key="d3">[7, 7]</data>
+      <data key="d0">AveragePool</data>
+    </node>
+    <node id="gpu_0/res5_2_branch2a_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2b_bn_1">
+      <data key="d1">1.00000006568735e-05</data>
+      <data key="d0">BatchNormalization</data>
+    </node>
+    <node id="gpu_0/res4_0_branch2b_bn_2">
+      <data key="d0">Relu</data>
+    </node>
+    <node id="gpu_0/res4_4_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <node id="gpu_0/res3_3_branch2c_bn_2">
+      <data key="d0">Sum</data>
+    </node>
+    <edge source="gpu_0/res4_1_branch2c_bn_1" target="gpu_0/res4_1_branch2c_bn_2" />
+    <edge source="gpu_0/res3_2_branch2b_1" target="gpu_0/res3_2_branch2b_bn_1" />
+    <edge source="gpu_0/res3_3_branch2c_bn_1" target="gpu_0/res3_3_branch2c_bn_2" />
+    <edge source="gpu_0/res4_2_branch2b_1" target="gpu_0/res4_2_branch2b_bn_1" />
+    <edge source="gpu_0/res4_0_branch2c_bn_3" target="gpu_0/res4_1_branch2c_bn_2" />
+    <edge source="gpu_0/res4_0_branch2c_bn_3" target="gpu_0/res4_1_branch2a_1" />
+    <edge source="gpu_0/res4_0_branch2c_bn_2" target="gpu_0/res4_0_branch2c_bn_3" />
+    <edge source="gpu_0/res4_0_branch2c_bn_1" target="gpu_0/res4_0_branch2c_bn_2" />
+    <edge source="gpu_0/res3_0_branch2a_bn_2" target="gpu_0/res3_0_branch2b_1" />
+    <edge source="gpu_0/res4_5_branch2c_bn_3" target="gpu_0/res5_0_branch1_1" />
+    <edge source="gpu_0/res4_5_branch2c_bn_3" target="gpu_0/res5_0_branch2a_1" />
+    <edge source="gpu_0/res3_0_branch2a_bn_1" target="gpu_0/res3_0_branch2a_bn_2" />
+    <edge source="gpu_0/res3_3_branch2b_bn_1" target="gpu_0/res3_3_branch2b_bn_2" />
+    <edge source="gpu_0/res3_3_branch2b_bn_2" target="gpu_0/res3_3_branch2c_1" />
+    <edge source="gpu_0/res4_3_branch2c_bn_3" target="gpu_0/res4_4_branch2c_bn_2" />
+    <edge source="gpu_0/res4_3_branch2c_bn_3" target="gpu_0/res4_4_branch2a_1" />
+    <edge source="gpu_0/res2_1_branch2b_1" target="gpu_0/res2_1_branch2b_bn_1" />
+    <edge source="gpu_0/res4_0_branch2a_bn_1" target="gpu_0/res4_0_branch2a_bn_2" />
+    <edge source="gpu_0/res4_2_branch2c_bn_3" target="gpu_0/res4_3_branch2a_1" />
+    <edge source="gpu_0/res4_2_branch2c_bn_3" target="gpu_0/res4_3_branch2c_bn_2" />
+    <edge source="gpu_0/res4_0_branch2a_bn_2" target="gpu_0/res4_0_branch2b_1" />
+    <edge source="gpu_0/res4_4_branch2a_bn_1" target="gpu_0/res4_4_branch2a_bn_2" />
+    <edge source="gpu_0/res4_4_branch2a_bn_2" target="gpu_0/res4_4_branch2b_1" />
+    <edge source="gpu_0/res4_5_branch2b_1" target="gpu_0/res4_5_branch2b_bn_1" />
+    <edge source="gpu_0/res4_1_branch2c_1" target="gpu_0/res4_1_branch2c_bn_1" />
+    <edge source="gpu_0/res3_3_branch2c_bn_3" target="gpu_0/res4_0_branch2a_1" />
+    <edge source="gpu_0/res3_3_branch2c_bn_3" target="gpu_0/res4_0_branch1_1" />
+    <edge source="gpu_0/res2_1_branch2c_bn_1" target="gpu_0/res2_1_branch2c_bn_2" />
+    <edge source="gpu_0/res2_1_branch2c_bn_2" target="gpu_0/res2_1_branch2c_bn_3" />
+    <edge source="gpu_0/res2_1_branch2c_bn_3" target="gpu_0/res2_2_branch2a_1" />
+    <edge source="gpu_0/res2_1_branch2c_bn_3" target="gpu_0/res2_2_branch2c_bn_2" />
+    <edge source="gpu_0/res4_1_branch2a_1" target="gpu_0/res4_1_branch2a_bn_1" />
+    <edge source="gpu_0/res2_0_branch2b_bn_2" target="gpu_0/res2_0_branch2c_1" />
+    <edge source="gpu_0/res4_3_branch2c_bn_1" target="gpu_0/res4_3_branch2c_bn_2" />
+    <edge source="gpu_0/res4_3_branch2c_bn_2" target="gpu_0/res4_3_branch2c_bn_3" />
+    <edge source="gpu_0/res2_0_branch2b_bn_1" target="gpu_0/res2_0_branch2b_bn_2" />
+    <edge source="gpu_0/res4_0_branch2b_1" target="gpu_0/res4_0_branch2b_bn_1" />
+    <edge source="gpu_0/res4_5_branch2b_bn_1" target="gpu_0/res4_5_branch2b_bn_2" />
+    <edge source="gpu_0/res4_5_branch2b_bn_2" target="gpu_0/res4_5_branch2c_1" />
+    <edge source="gpu_0/res2_0_branch2a_bn_2" target="gpu_0/res2_0_branch2b_1" />
+    <edge source="gpu_0/res2_0_branch2a_bn_1" target="gpu_0/res2_0_branch2a_bn_2" />
+    <edge source="gpu_0/res3_0_branch2c_1" target="gpu_0/res3_0_branch2c_bn_1" />
+    <edge source="gpu_0/res4_0_branch1_bn_1" target="gpu_0/res4_0_branch2c_bn_2" />
+    <edge source="gpu_0/res2_1_branch2b_bn_2" target="gpu_0/res2_1_branch2c_1" />
+    <edge source="gpu_0/res2_1_branch2b_bn_1" target="gpu_0/res2_1_branch2b_bn_2" />
+    <edge source="gpu_0/res2_0_branch2c_1" target="gpu_0/res2_0_branch2c_bn_1" />
+    <edge source="gpu_0/res4_1_branch2a_bn_1" target="gpu_0/res4_1_branch2a_bn_2" />
+    <edge source="gpu_0/res4_1_branch2a_bn_2" target="gpu_0/res4_1_branch2b_1" />
+    <edge source="gpu_0/res4_3_branch2b_bn_2" target="gpu_0/res4_3_branch2c_1" />
+    <edge source="gpu_0/res4_3_branch2b_bn_1" target="gpu_0/res4_3_branch2b_bn_2" />
+    <edge source="gpu_0/res4_2_branch2a_bn_2" target="gpu_0/res4_2_branch2b_1" />
+    <edge source="gpu_0/res3_3_branch2a_bn_1" target="gpu_0/res3_3_branch2a_bn_2" />
+    <edge source="gpu_0/conv1_1" target="gpu_0/res_conv1_bn_1" />
+    <edge source="gpu_0/res3_3_branch2a_bn_2" target="gpu_0/res3_3_branch2b_1" />
+    <edge source="gpu_0/res4_2_branch2a_bn_1" target="gpu_0/res4_2_branch2a_bn_2" />
+    <edge source="gpu_0/res5_0_branch1_bn_1" target="gpu_0/res5_0_branch2c_bn_2" />
+    <edge source="gpu_0/res4_4_branch2b_1" target="gpu_0/res4_4_branch2b_bn_1" />
+    <edge source="gpu_0/res4_3_branch2a_1" target="gpu_0/res4_3_branch2a_bn_1" />
+    <edge source="gpu_0/res3_2_branch2b_bn_1" target="gpu_0/res3_2_branch2b_bn_2" />
+    <edge source="gpu_0/res3_2_branch2b_bn_2" target="gpu_0/res3_2_branch2c_1" />
+    <edge source="gpu_0/res4_5_branch2a_1" target="gpu_0/res4_5_branch2a_bn_1" />
+    <edge source="gpu_0/res5_1_branch2b_bn_1" target="gpu_0/res5_1_branch2b_bn_2" />
+    <edge source="gpu_0/res5_1_branch2b_bn_2" target="gpu_0/res5_1_branch2c_1" />
+    <edge source="gpu_0/res5_0_branch2a_1" target="gpu_0/res5_0_branch2a_bn_1" />
+    <edge source="gpu_0/res4_3_branch2b_1" target="gpu_0/res4_3_branch2b_bn_1" />
+    <edge source="gpu_0/res3_3_branch2b_1" target="gpu_0/res3_3_branch2b_bn_1" />
+    <edge source="gpu_0/res4_1_branch2c_bn_2" target="gpu_0/res4_1_branch2c_bn_3" />
+    <edge source="gpu_0/res4_1_branch2c_bn_3" target="gpu_0/res4_2_branch2c_bn_2" />
+    <edge source="gpu_0/res4_1_branch2c_bn_3" target="gpu_0/res4_2_branch2a_1" />
+    <edge source="gpu_0/res4_0_branch1_1" target="gpu_0/res4_0_branch1_bn_1" />
+    <edge source="gpu_0/res5_2_branch2b_1" target="gpu_0/res5_2_branch2b_bn_1" />
+    <edge source="gpu_0/res5_1_branch2c_bn_3" target="gpu_0/res5_2_branch2a_1" />
+    <edge source="gpu_0/res5_1_branch2c_bn_3" target="gpu_0/res5_2_branch2c_bn_2" />
+    <edge source="gpu_0/res4_2_branch2a_1" target="gpu_0/res4_2_branch2a_bn_1" />
+    <edge source="gpu_0/res5_1_branch2c_bn_1" target="gpu_0/res5_1_branch2c_bn_2" />
+    <edge source="gpu_0/res2_2_branch2b_1" target="gpu_0/res2_2_branch2b_bn_1" />
+    <edge source="gpu_0/res3_3_branch2a_1" target="gpu_0/res3_3_branch2a_bn_1" />
+    <edge source="gpu_0/res2_0_branch2b_1" target="gpu_0/res2_0_branch2b_bn_1" />
+    <edge source="gpu_0/res4_3_branch2c_1" target="gpu_0/res4_3_branch2c_bn_1" />
+    <edge source="gpu_0/pred_1" target="gpu_0/softmax_1" />
+    <edge source="gpu_0/res3_0_branch2a_1" target="gpu_0/res3_0_branch2a_bn_1" />
+    <edge source="gpu_0/res2_2_branch2a_1" target="gpu_0/res2_2_branch2a_bn_1" />
+    <edge source="gpu_0/res5_2_branch2a_1" target="gpu_0/res5_2_branch2a_bn_1" />
+    <edge source="gpu_0/res3_3_branch2c_1" target="gpu_0/res3_3_branch2c_bn_1" />
+    <edge source="gpu_0/res4_2_branch2b_bn_2" target="gpu_0/res4_2_branch2c_1" />
+    <edge source="gpu_0/res5_2_branch2b_bn_2" target="gpu_0/res5_2_branch2c_1" />
+    <edge source="gpu_0/res5_1_branch2c_1" target="gpu_0/res5_1_branch2c_bn_1" />
+    <edge source="gpu_0/res4_2_branch2b_bn_1" target="gpu_0/res4_2_branch2b_bn_2" />
+    <edge source="gpu_0/res4_3_branch2a_bn_2" target="gpu_0/res4_3_branch2b_1" />
+    <edge source="gpu_0/res4_3_branch2a_bn_1" target="gpu_0/res4_3_branch2a_bn_2" />
+    <edge source="gpu_0/res5_0_branch1_1" target="gpu_0/res5_0_branch1_bn_1" />
+    <edge source="gpu_0/res5_0_branch2c_1" target="gpu_0/res5_0_branch2c_bn_1" />
+    <edge source="gpu_0/res4_0_branch2a_1" target="gpu_0/res4_0_branch2a_bn_1" />
+    <edge source="gpu_0/res4_4_branch2c_1" target="gpu_0/res4_4_branch2c_bn_1" />
+    <edge source="gpu_0/res4_5_branch2c_bn_2" target="gpu_0/res4_5_branch2c_bn_3" />
+    <edge source="gpu_0/res2_2_branch2c_bn_3" target="gpu_0/res3_0_branch1_1" />
+    <edge source="gpu_0/res2_2_branch2c_bn_3" target="gpu_0/res3_0_branch2a_1" />
+    <edge source="gpu_0/res2_2_branch2c_bn_2" target="gpu_0/res2_2_branch2c_bn_3" />
+    <edge source="gpu_0/res2_2_branch2c_bn_1" target="gpu_0/res2_2_branch2c_bn_2" />
+    <edge source="gpu_0/res4_5_branch2a_bn_2" target="gpu_0/res4_5_branch2b_1" />
+    <edge source="gpu_0/res2_0_branch2c_bn_1" target="gpu_0/res2_0_branch2c_bn_2" />
+    <edge source="gpu_0/res2_0_branch2c_bn_3" target="gpu_0/res2_1_branch2a_1" />
+    <edge source="gpu_0/res2_0_branch2c_bn_3" target="gpu_0/res2_1_branch2c_bn_2" />
+    <edge source="gpu_0/res2_0_branch2c_bn_2" target="gpu_0/res2_0_branch2c_bn_3" />
+    <edge source="gpu_0/res2_0_branch2a_1" target="gpu_0/res2_0_branch2a_bn_1" />
+    <edge source="gpu_0/res3_1_branch2b_bn_2" target="gpu_0/res3_1_branch2c_1" />
+    <edge source="gpu_0/res3_1_branch2b_bn_1" target="gpu_0/res3_1_branch2b_bn_2" />
+    <edge source="gpu_0/res4_4_branch2b_bn_1" target="gpu_0/res4_4_branch2b_bn_2" />
+    <edge source="gpu_0/res4_4_branch2b_bn_2" target="gpu_0/res4_4_branch2c_1" />
+    <edge source="OC2_DUMMY_0" target="gpu_0/pred_1" />
+    <edge source="gpu_0/res5_0_branch2c_bn_3" target="gpu_0/res5_1_branch2a_1" />
+    <edge source="gpu_0/res5_0_branch2c_bn_3" target="gpu_0/res5_1_branch2c_bn_2" />
+    <edge source="gpu_0/res2_0_branch1_1" target="gpu_0/res2_0_branch1_bn_1" />
+    <edge source="gpu_0/res2_0_branch1_bn_1" target="gpu_0/res2_0_branch2c_bn_2" />
+    <edge source="gpu_0/res4_4_branch2a_1" target="gpu_0/res4_4_branch2a_bn_1" />
+    <edge source="gpu_0/res2_2_branch2c_1" target="gpu_0/res2_2_branch2c_bn_1" />
+    <edge source="gpu_0/res5_2_branch2c_1" target="gpu_0/res5_2_branch2c_bn_1" />
+    <edge source="gpu_0/res2_2_branch2a_bn_1" target="gpu_0/res2_2_branch2a_bn_2" />
+    <edge source="gpu_0/res4_5_branch2c_1" target="gpu_0/res4_5_branch2c_bn_1" />
+    <edge source="gpu_0/res2_2_branch2a_bn_2" target="gpu_0/res2_2_branch2b_1" />
+    <edge source="gpu_0/res5_0_branch2a_bn_1" target="gpu_0/res5_0_branch2a_bn_2" />
+    <edge source="gpu_0/res5_0_branch2a_bn_2" target="gpu_0/res5_0_branch2b_1" />
+    <edge source="gpu_0/res2_1_branch2a_bn_2" target="gpu_0/res2_1_branch2b_1" />
+    <edge source="gpu_0/res2_1_branch2a_bn_1" target="gpu_0/res2_1_branch2a_bn_2" />
+    <edge source="gpu_0/res5_1_branch2a_1" target="gpu_0/res5_1_branch2a_bn_1" />
+    <edge source="gpu_0/res3_1_branch2b_1" target="gpu_0/res3_1_branch2b_bn_1" />
+    <edge source="gpu_0/res3_2_branch2c_1" target="gpu_0/res3_2_branch2c_bn_1" />
+    <edge source="gpu_0/res5_1_branch2c_bn_2" target="gpu_0/res5_1_branch2c_bn_3" />
+    <edge source="gpu_0/res4_1_branch2b_bn_1" target="gpu_0/res4_1_branch2b_bn_2" />
+    <edge source="gpu_0/res3_1_branch2a_bn_2" target="gpu_0/res3_1_branch2b_1" />
+    <edge source="gpu_0/res3_1_branch2a_bn_1" target="gpu_0/res3_1_branch2a_bn_2" />
+    <edge source="gpu_0/res4_1_branch2b_bn_2" target="gpu_0/res4_1_branch2c_1" />
+    <edge source="gpu_0/res5_2_branch2b_bn_1" target="gpu_0/res5_2_branch2b_bn_2" />
+    <edge source="gpu_0/res5_1_branch2a_bn_1" target="gpu_0/res5_1_branch2a_bn_2" />
+    <edge source="gpu_0/res4_5_branch2c_bn_1" target="gpu_0/res4_5_branch2c_bn_2" />
+    <edge source="gpu_0/res5_1_branch2a_bn_2" target="gpu_0/res5_1_branch2b_1" />
+    <edge source="gpu_0/res5_1_branch2b_1" target="gpu_0/res5_1_branch2b_bn_1" />
+    <edge source="gpu_0/res5_0_branch2c_bn_2" target="gpu_0/res5_0_branch2c_bn_3" />
+    <edge source="gpu_0/res3_2_branch2c_bn_2" target="gpu_0/res3_2_branch2c_bn_3" />
+    <edge source="gpu_0/res5_0_branch2c_bn_1" target="gpu_0/res5_0_branch2c_bn_2" />
+    <edge source="gpu_0/res3_1_branch2c_bn_1" target="gpu_0/res3_1_branch2c_bn_2" />
+    <edge source="gpu_0/res4_2_branch2c_bn_1" target="gpu_0/res4_2_branch2c_bn_2" />
+    <edge source="gpu_0/res3_1_branch2c_bn_3" target="gpu_0/res3_2_branch2c_bn_2" />
+    <edge source="gpu_0/res3_1_branch2c_bn_3" target="gpu_0/res3_2_branch2a_1" />
+    <edge source="gpu_0/res3_1_branch2c_bn_2" target="gpu_0/res3_1_branch2c_bn_3" />
+    <edge source="gpu_0/res3_0_branch1_bn_1" target="gpu_0/res3_0_branch2c_bn_2" />
+    <edge source="gpu_0/res2_1_branch2c_1" target="gpu_0/res2_1_branch2c_bn_1" />
+    <edge source="gpu_0/res_conv1_bn_1" target="gpu_0/res_conv1_bn_2" />
+    <edge source="gpu_0/res_conv1_bn_2" target="gpu_0/pool1_1" />
+    <edge source="gpu_0/res4_2_branch2c_bn_2" target="gpu_0/res4_2_branch2c_bn_3" />
+    <edge source="gpu_0/res3_2_branch2a_1" target="gpu_0/res3_2_branch2a_bn_1" />
+    <edge source="gpu_0/res3_0_branch2c_bn_1" target="gpu_0/res3_0_branch2c_bn_2" />
+    <edge source="gpu_0/res4_0_branch2c_1" target="gpu_0/res4_0_branch2c_bn_1" />
+    <edge source="gpu_0/res3_0_branch2c_bn_3" target="gpu_0/res3_1_branch2c_bn_2" />
+    <edge source="gpu_0/res3_0_branch2c_bn_3" target="gpu_0/res3_1_branch2a_1" />
+    <edge source="gpu_0/res4_4_branch2c_bn_3" target="gpu_0/res4_5_branch2c_bn_2" />
+    <edge source="gpu_0/res4_4_branch2c_bn_3" target="gpu_0/res4_5_branch2a_1" />
+    <edge source="gpu_0/res2_1_branch2a_1" target="gpu_0/res2_1_branch2a_bn_1" />
+    <edge source="gpu_0/res4_4_branch2c_bn_1" target="gpu_0/res4_4_branch2c_bn_2" />
+    <edge source="gpu_0/data_0" target="gpu_0/conv1_1" />
+    <edge source="gpu_0/res2_2_branch2b_bn_1" target="gpu_0/res2_2_branch2b_bn_2" />
+    <edge source="gpu_0/res2_2_branch2b_bn_2" target="gpu_0/res2_2_branch2c_1" />
+    <edge source="gpu_0/res4_5_branch2a_bn_1" target="gpu_0/res4_5_branch2a_bn_2" />
+    <edge source="gpu_0/res3_0_branch2c_bn_2" target="gpu_0/res3_0_branch2c_bn_3" />
+    <edge source="gpu_0/res3_2_branch2a_bn_1" target="gpu_0/res3_2_branch2a_bn_2" />
+    <edge source="gpu_0/res3_2_branch2a_bn_2" target="gpu_0/res3_2_branch2b_1" />
+    <edge source="gpu_0/res3_0_branch2b_bn_2" target="gpu_0/res3_0_branch2c_1" />
+    <edge source="gpu_0/res3_0_branch2b_bn_1" target="gpu_0/res3_0_branch2b_bn_2" />
+    <edge source="gpu_0/res3_1_branch2c_1" target="gpu_0/res3_1_branch2c_bn_1" />
+    <edge source="gpu_0/res4_1_branch2b_1" target="gpu_0/res4_1_branch2b_bn_1" />
+    <edge source="gpu_0/res5_2_branch2c_bn_1" target="gpu_0/res5_2_branch2c_bn_2" />
+    <edge source="gpu_0/res5_2_branch2c_bn_2" target="gpu_0/res5_2_branch2c_bn_3" />
+    <edge source="gpu_0/res5_2_branch2c_bn_3" target="gpu_0/pool5_1" />
+    <edge source="gpu_0/pool1_1" target="gpu_0/res2_0_branch1_1" />
+    <edge source="gpu_0/pool1_1" target="gpu_0/res2_0_branch2a_1" />
+    <edge source="gpu_0/res5_2_branch2a_bn_1" target="gpu_0/res5_2_branch2a_bn_2" />
+    <edge source="gpu_0/res5_0_branch2b_1" target="gpu_0/res5_0_branch2b_bn_1" />
+    <edge source="gpu_0/res4_2_branch2c_1" target="gpu_0/res4_2_branch2c_bn_1" />
+    <edge source="gpu_0/res5_0_branch2b_bn_1" target="gpu_0/res5_0_branch2b_bn_2" />
+    <edge source="gpu_0/res3_1_branch2a_1" target="gpu_0/res3_1_branch2a_bn_1" />
+    <edge source="gpu_0/res5_0_branch2b_bn_2" target="gpu_0/res5_0_branch2c_1" />
+    <edge source="gpu_0/res3_0_branch2b_1" target="gpu_0/res3_0_branch2b_bn_1" />
+    <edge source="gpu_0/res3_0_branch1_1" target="gpu_0/res3_0_branch1_bn_1" />
+    <edge source="gpu_0/res3_2_branch2c_bn_3" target="gpu_0/res3_3_branch2a_1" />
+    <edge source="gpu_0/res3_2_branch2c_bn_3" target="gpu_0/res3_3_branch2c_bn_2" />
+    <edge source="gpu_0/res3_2_branch2c_bn_1" target="gpu_0/res3_2_branch2c_bn_2" />
+    <edge source="gpu_0/pool5_1" target="OC2_DUMMY_0" />
+    <edge source="gpu_0/res5_2_branch2a_bn_2" target="gpu_0/res5_2_branch2b_1" />
+    <edge source="gpu_0/res4_0_branch2b_bn_1" target="gpu_0/res4_0_branch2b_bn_2" />
+    <edge source="gpu_0/res4_0_branch2b_bn_2" target="gpu_0/res4_0_branch2c_1" />
+    <edge source="gpu_0/res4_4_branch2c_bn_2" target="gpu_0/res4_4_branch2c_bn_3" />
+    <edge source="gpu_0/res3_3_branch2c_bn_2" target="gpu_0/res3_3_branch2c_bn_3" />
+  </graph>
+</graphml>
